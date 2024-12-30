@@ -33,11 +33,5 @@
         "illuminate/support": "*",
         "illuminate/translation": "*",
         "illuminate/validation": "*"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:quillforms/wpeloquent.git"
-        }
-    ]
+    }
 }
