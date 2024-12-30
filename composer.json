@@ -22,7 +22,15 @@
     },
     "require": {
         "php": ">=7.4",
-        "psr/container": "^1.0"
+        "illuminate/container": "^5.8",
+        "illuminate/contracts": "^5.8",
+        "illuminate/database": "^5.8",
+        "illuminate/events": "^5.4",
+        "illuminate/filesystem": "^5.8",
+        "illuminate/pagination": "^5.8",
+        "illuminate/support": "^5.8",
+        "illuminate/translation": "^5.8",
+        "illuminate/validation": "^5.8"
     },
     "conflict": {
         "illuminate/container": "*",
