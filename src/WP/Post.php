@@ -13,6 +13,7 @@ use WPEloquent\Eloquent\Model;
 class Post extends Model
 {
 
+    protected $table = 'posts';
     protected $post_type = null;
     protected $primaryKey = 'ID';
 

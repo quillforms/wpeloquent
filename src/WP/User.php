@@ -7,6 +7,7 @@ use WPEloquent\Eloquent\Model;
 
 class User extends Model
 {
+    protected $table = 'users';
     protected $primaryKey = 'ID';
     protected $timestamp = false;
 
