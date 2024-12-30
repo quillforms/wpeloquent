@@ -7,7 +7,10 @@
             "WPEloquent\\Eloquent\\": "src/Eloquent/",
             "Illuminate\\": "src/Illuminate/",
             "WPEloquent\\WP\\": "src/WP/"
-        }
+        },
+        "files": [
+            "src/Illuminate/support/helpers.php"
+        ]
     },
     "require": {
         "php": ">=7.4",
