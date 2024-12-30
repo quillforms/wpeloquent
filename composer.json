@@ -1,0 +1,43 @@
+{
+    "name": "quillforms/wpeloquent",
+    "description": "A custom package with modified Eloquent, Illuminate, and WP models",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "WPEloquent\\Eloquent\\": "src/Eloquent/",
+            "Illuminate\\": "src/Illuminate/",
+            "WPEloquent\\WP\\": "src/WP/"
+        }
+    },
+    "replace": {
+        "illuminate/container": "*",
+        "illuminate/contracts": "*",
+        "illuminate/database": "*",
+        "illuminate/events": "*",
+        "illuminate/filesystem": "*",
+        "illuminate/pagination": "*",
+        "illuminate/support": "*",
+        "illuminate/translation": "*",
+        "illuminate/validation": "*"
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "conflict": {
+        "illuminate/container": "*",
+        "illuminate/contracts": "*",
+        "illuminate/database": "*",
+        "illuminate/events": "*",
+        "illuminate/filesystem": "*",
+        "illuminate/pagination": "*",
+        "illuminate/support": "*",
+        "illuminate/translation": "*",
+        "illuminate/validation": "*"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:quillforms/wpeloquent.git"
+        }
+    ]
+}
