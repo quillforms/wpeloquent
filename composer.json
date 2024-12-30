@@ -17,9 +17,14 @@
         "illuminate/validation": "^5.8"
     },
     "replace": {
+        "illuminate/container": "self.version",
+        "illuminate/contracts": "self.version",
         "illuminate/database": "self.version",
         "illuminate/events": "self.version",
+        "illuminate/filesystem": "self.version",
         "illuminate/pagination": "self.version",
+        "illuminate/support": "self.version",
+        "illuminate/translation": "self.version",
         "illuminate/validation": "self.version"
     },
     "conflict": {
