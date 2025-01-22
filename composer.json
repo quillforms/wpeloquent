@@ -24,27 +24,5 @@
         "ext-json": "*",
         "ext-mbstring": "*",
         "ext-iconv": "*"
-    },
-    "replace": {
-        "illuminate/container": "*",
-        "illuminate/contracts": "*",
-        "illuminate/database": "*",
-        "illuminate/events": "*",
-        "illuminate/filesystem": "*",
-        "illuminate/pagination": "*",
-        "illuminate/support": "*",
-        "illuminate/translation": "*",
-        "illuminate/validation": "*"
-    },
-    "conflict": {
-        "illuminate/container": "*",
-        "illuminate/contracts": "*",
-        "illuminate/database": "*",
-        "illuminate/events": "*",
-        "illuminate/filesystem": "*",
-        "illuminate/pagination": "*",
-        "illuminate/support": "*",
-        "illuminate/translation": "*",
-        "illuminate/validation": "*"
     }
 }
