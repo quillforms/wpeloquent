@@ -5,7 +5,15 @@
     "autoload": {
         "psr-4": {
             "WPEloquent\\Eloquent\\": "src/Eloquent/",
-            "Illuminate\\": "src/Illuminate/",
+            "Illuminate\\Container\\": "src/Illuminate/container/",
+            "Illuminate\\Contracts\\": "src/Illuminate/contracts/",
+            "Illuminate\\Database\\": "src/Illuminate/database/",
+            "Illuminate\\Events\\": "src/Illuminate/events/",
+            "Illuminate\\Filesystem\\": "src/Illuminate/filesystem/",
+            "Illuminate\\Pagination\\": "src/Illuminate/pagination/",
+            "Illuminate\\Support\\": "src/Illuminate/support/",
+            "Illuminate\\Translation\\": "src/Illuminate/translation/",
+            "Illuminate\\Validation\\": "src/Illuminate/validation/",
             "WPEloquent\\WP\\": "src/WP/"
         },
         "files": [
